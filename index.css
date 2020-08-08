@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(77, 94, 190);
+  /* display: flex; */
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  background-color: rgb(77, 94, 190);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* #4791db */
+.logoText {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.menuList {
+  color: white;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.menuItem {
+  padding: 15px;
+  display: inline-flex;
+  align-self: flex-end;
+}
+
+.firstSection {
+  background-color: white;
+  display: flex;
+  margin: 150px;
+  height: 700px;
+  width: 1072px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#firstSectionLeft {
+  padding: 10px;
+}
+
+.image {
+  height: 650px;
+  width: auto;
+  border-radius: 10px;
+}
+
+#firstSectionRight {
+  padding: 20px;
+  align-self: center;
+}
+
+.introduction {
+  text-transform: uppercase;
+}
+
+.Education {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+.sectionHeader {
+  padding: 5px;
+  margin: 10px
+}
+
+/* .educationLeft {
+  align-self: flex-start;
+}
+
+.educationLeft ul {
+  list-style: none;
+}
+
+.educationRight {
+  align-self: flex-end;
+}
+
+.educationRight ul {
+  list-style: none;
+} */
+.educationCenter {
+  display: flex;
+}
+
+.educationCenter ul {
+  list-style: none;
+}
+
+.centerSpan {
+  height: 60%;
+  width: 5px;
+  background: rgb(77, 94, 190);
+  position: absolute;
+  transform: translateX(-50%);
+  margin: 100px 100px 100px 0px
+}
+
+.eduInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eduYear {
+  align-self: flex-start;
+  padding: 10px;
+  margin: 10px;
+}
+
+.eduEvent {
+  align-self: flex-end;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* li span {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: rgba(206, 171, 171, 0.87);
+  position: absolute;
+  transform: translateX(-50%);
+} */
+.Contact {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+
+h2 {
+  color: white;
+}
+
+.contactForm {
+  width: 500px;
+}
+
+/* Full-width inputs */
+input[type=email],
+.form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
