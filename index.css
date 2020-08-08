@@ -148,9 +148,6 @@ a {
   height: 300px;
 }
 
-h2 {
-  color: white;
-}
 
 .contactForm {
   width: 500px;
@@ -181,6 +178,10 @@ button {
 /* Add a hover effect for buttons */
 button:hover {
   opacity: 0.8;
+}
+
+.contactHeader {
+  color: white;
 }
 
 footer {
