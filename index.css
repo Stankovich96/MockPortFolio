@@ -247,6 +247,10 @@ footer {
     text-transform: uppercase;
   }
 
+  .centerSpan {
+    background: rgb(255, 255, 255);
+  }
+
   .socials {
     height: 25px;
     width: 25px;
@@ -254,7 +258,7 @@ footer {
   }
 
   .contactForm {
-    width: 500px
+    width: 350px;
   }
 
 }
