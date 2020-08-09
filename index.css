@@ -248,7 +248,7 @@ footer {
   }
 
   .centerSpan {
-    background: rgb(255, 255, 255);
+    display: none;
   }
 
   .socials {
